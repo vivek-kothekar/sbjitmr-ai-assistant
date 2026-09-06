@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBJITMR AI Assistant</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <!-- Botpress Webchat Scripts (Exact & Unmodified) -->
+    <script src="https://cdn.botpress.cloud/webchat/v5.0/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2026/09/05/16/20260905162247-6LB5J628.js" defer></script>
+</head>
+<body>
+    <div class="page-layout">
+        <!-- Minimal Top Header -->
+        <header class="header-container">
+            <h1 class="header-title">SBJITMR AI Assistant</h1>
+            <p class="header-subtitle">Your smart college assistant</p>
+        </header>
+
+        <!-- Subtle Footer -->
+        <footer class="footer-container">
+            <p class="footer-text">© 2026 SBJITMR AI Assistant</p>
+        </footer>
+    </div>
+
+    <!-- Client Script for Centering & Initialization -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
